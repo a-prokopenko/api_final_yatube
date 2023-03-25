@@ -34,14 +34,10 @@
 
 ## Установка и запуск
 
-1.Клонировать репозиторий и перейти в него в командной строке:
+1. Клонировать репозиторий:
 ```bash
 git clone https://github.com/MartiArti/api_final_yatube
 ```
-```bash
-cd api_final_yatube
-```
-
 2. Перейти в директорию проекта, создать и активировать виртуальное окружение:
 ```bash
 cd yatube_final/
@@ -66,7 +62,6 @@ python3 -m venv venv
 python3 -m pip install --upgrade pip
 pip install -r requirements.txt --no-cache-dir
 ```
-
 4. Выполнить миграции:
 ```bash
 python3 yatube_api/manage.py migrate
