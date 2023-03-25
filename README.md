@@ -70,7 +70,7 @@ python3 yatube_api/manage.py migrate
 ```bash
 python3 yatube_api/manage.py loaddata yatube_api/data.json
 ```
-6.Запустить проект:
+6. Запустить проект:
 ```bash
 python3 yatube_api/manage.py runserver
 ```
