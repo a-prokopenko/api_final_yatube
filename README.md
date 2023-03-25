@@ -50,7 +50,7 @@ python3 -m venv venv
     source env/bin/activate
     ```
 
-* Если у вас windows
+* Если у вас Windows
 
     ```bash
     source env/scripts/activate
