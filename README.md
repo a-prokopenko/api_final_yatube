@@ -21,61 +21,65 @@
    - Создавать JWT токен и обновлять его в случае утраты
 
 ## Технологии
-- Python 3.8
-- Django 3.2
+- Python 3.7
+- Django 2.2
 - Django REST framework
 - SQlite3
 - Simple-JWT
 - Pytest
 
-## Как запустить проект
+## Системные требования
+- Python 3.7
+- Windows/Linux/MacOS
 
-Клонировать репозиторий и перейти в него в командной строке:
+## Установка и запуск
 
-```
+1.Клонировать репозиторий и перейти в него в командной строке:
+```bash
 git clone https://github.com/MartiArti/api_final_yatube
 ```
-
-```
+```bash
 cd api_final_yatube
 ```
 
-Cоздать и активировать виртуальное окружение:
-
-```
-python3 -m venv env
+2. Перейти в директорию проекта, создать и активировать виртуальное окружение:
+```bash
+cd yatube_final/
+python3 -m venv venv
 ```
 
 * Если у вас Linux/macOS
 
-    ```
+    ```bash
     source env/bin/activate
     ```
 
 * Если у вас windows
 
-    ```
+    ```bash
     source env/scripts/activate
     ```
 
 
-Установить зависимости из файла requirements.txt:
-
-```
-pip install -r requirements.txt
-```
-
-Выполнить миграции:
-
-```
-python3 manage.py migrate
+3. Установить зависимости из файла ```requirements.txt```:
+```bash
+python3 -m pip install --upgrade pip
+pip install -r requirements.txt --no-cache-dir
 ```
 
-Запустить проект:
-
+4. Выполнить миграции:
+```bash
+python3 yatube_api/manage.py migrate
 ```
-python3 manage.py runserver
+5. Заполните БД начальными данными:
+```bash
+python3 yatube_api/manage.py loaddata yatube_api/data.json
 ```
+6.Запустить проект:
+```bash
+python3 yatube_api/manage.py runserver
+```
+Развёрнутый проект доступен по адресу http://127.0.0.1:8000/api/v1/
 
 ## Примеры запросов
 
