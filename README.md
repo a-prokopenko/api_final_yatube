@@ -40,7 +40,7 @@ git clone https://github.com/MartiArti/api_final_yatube
 ```
 2. Перейти в директорию проекта, создать и активировать виртуальное окружение:
 ```bash
-cd yatube_final/
+cd api_final_yatube/
 python3 -m venv venv
 ```
 
