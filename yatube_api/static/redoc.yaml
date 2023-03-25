@@ -1,7 +1,6 @@
 openapi: 3.0.2
 info:
   title: Документация к API проекта Yatube
-  version: v1
 paths:
   /api/v1/posts/:
     get:
