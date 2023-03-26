@@ -5,7 +5,7 @@
 [![JWT](https://img.shields.io/badge/-JWT-464646?style=flat&color=043A6B)](https://jwt.io/)
 
 ## REST API для сервиса Yatube
-Проект [Yatube](https://github.com/a-prokopenko/yatube_final) - социальная сеть для публикации личных дневников.
+Проект [Yatube](https://github.com/a-prokopenko/yatube_final) - платформа для ведения блогов.
 
 Данное API позволяет:
  - Не авторизированным пользователям:
